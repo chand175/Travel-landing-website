@@ -12,8 +12,6 @@
 </head>
 
 <body>
-
-
     <div class="heroSection">
 
         <div class="navbar">
@@ -39,14 +37,31 @@
                     <li><a href="#"> Sign up</a></li>
                 </ul>
                 <button type="submit">Log in </button>
-
+                <ul class="sidebar" style="display: none;"  >
+                    <li class="submit1" ><img src="Assets/navbar/closeIcon.webp" alt="" width="30px"onclick = hideSidebar()></li>
+                    <li><a href="#" style="color:#EB662B"> Home</a></li>
+                    <li> <a href="#">Tour</a></li>
+                    <li> <a href="#"> Destination</a></li>
+                    <li><a href="#"> Activities</a></li>
+                    <li> <a href="#"> Pages</a></li>
+                    <li><a href="#"> Contact</a></li>
+                    <li><a href=" #"> USD </a></li>
+                    <li><a href="#"> Help</a></li>
+                    <li><a href="#"> Sign up</a></li>
+                </ul>
+            </div>
+            <div class="hamburger" onclick=showSidebar()>
+                <div class="icon"></div>
+                <div class="icon"></div>
+                <div class="icon"></div>
             </div>
         </div>
 
         <div class="heading">
-            <h1>
-                <pre>Life Is Adventure Make
-    The Best Of It </pre>
+            <h1> 
+            Life Is Adventure Make</h1>
+             <h1> 
+             The Best Of It 
             </h1>
 
         </div>
@@ -93,14 +108,24 @@
         </div>
 
         <div class="popularImg container">
-            <div class="box" id="box1"><p>Cruises </p></div>
-            <div class="box" id="box2"> <p>Beach Tours</p></div>
-            <div class="box" id="box3"> <p>City Tours</p></div>
-            <div class="box" id="box4"> <p>Museum Tour</p></div>
+            <div class="box" id="box1">
+                <p>Cruises </p>
+            </div>
+            <div class="box" id="box2">
+                <p>Beach Tours</p>
+            </div>
+            <div class="box" id="box3">
+                <p>City Tours</p>
+            </div>
+            <div class="box" id="box4">
+                <p>Museum Tour</p>
+            </div>
             <div class="box" id="box5">
                 <p> Food</p>
             </div>
-            <div class="box" id="box6"> <p> Hiking</p></div>
+            <div class="box" id="box6">
+                <p> Hiking</p>
+            </div>
         </div>
 
     </div>
@@ -109,10 +134,9 @@
 
 
     <div class="chooseTourz">
-
-        <h1 id="chooseTourz"> Why choose Tourz </h1>
- 
-
+        <div id="chooseTourz">
+            <h1> Why choose Tourz </h1>
+        </div>
 
         <div class="cards">
             <div class="card1">
@@ -279,18 +303,20 @@
     </section>
     <!-- FeaturedTrips section completed -->
     <div class="destinations">
-        <div class="heading1">
-            <h1>Trending Destinations</h1>
-            <p>see all</p>
-        </div>
-        <div class="places">
+        <div id="places1">
 
-            <div id="place" class="list1"></div>
-            <div id="place" class="list2"></div>
-            <div id="place" class="list3"></div>
-            <div id="place" class="list4"></div>
-        </div>
+            <div class="heading1">
+                <h1>Trending Destinations</h1>
+                <p>see all</p>
+            </div>
+            <div class="places">
 
+                <div id="place" class="list1"></div>
+                <div id="place" class="list2"></div>
+                <div id="place" class="list3"></div>
+                <div id="place" class="list4"></div>
+            </div>
+        </div>
 
 
 
@@ -397,8 +423,9 @@
         <div class="footer1">
             <p> Speak to our expert at1-800-453-6744</p>
             <p>Follow Us </p>
+            
         </div>
-        <hr>
+       <hr>
         <div class="footer2">
             <div class="contact ">
                 <h5>Contact </h5>
@@ -463,7 +490,7 @@ Australia</p> </pre>
     </div>
 
 
-
+    <script src="app .js"></script>
 
 </body>
 
