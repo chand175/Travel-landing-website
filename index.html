@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquary.css">
 </head>
 
 <body>
@@ -21,8 +22,9 @@
             </div>
 
             <div class="midSection">
-                <ul>
-                    <li><a href="#" style="color:#EB662B"> Home</a></li>
+                <ul> <div  class="home">
+                    <li><a href="#"> Home</a></li>
+                </div>
                     <li> <a href="#">Tour</a></li>
                     <li> <a href="#"> Destination</a></li>
                     <li><a href="#"> Activities</a></li>
@@ -37,8 +39,9 @@
                     <li><a href="#"> Sign up</a></li>
                 </ul>
                 <button type="submit">Log in </button>
-                <ul class="sidebar" style="display: none;"  >
-                    <li class="submit1" ><img src="Assets/navbar/closeIcon.webp" alt="" width="30px"onclick = hideSidebar()></li>
+
+                <ul id="closeBtn" class="sidebar" >
+                    <li><img src="Assets/navbar/closeIcon.webp" alt="" width="30px" onclick=hideSidebar()></li>
                     <li><a href="#" style="color:#EB662B"> Home</a></li>
                     <li> <a href="#">Tour</a></li>
                     <li> <a href="#"> Destination</a></li>
@@ -58,10 +61,10 @@
         </div>
 
         <div class="heading">
-            <h1> 
-            Life Is Adventure Make</h1>
-             <h1> 
-             The Best Of It 
+            <h1>
+                Life Is Adventure Make</h1>
+            <h1>
+                The Best Of It
             </h1>
 
         </div>
@@ -396,7 +399,7 @@
                 app booking
             </h1>
 
-            <div class="para12">
+            <div class=".para12">
                 <p> Booking's better on the app. Use promo code
                     "TourBooking" to save! </p>
             </div>
@@ -423,20 +426,21 @@
         <div class="footer1">
             <p> Speak to our expert at1-800-453-6744</p>
             <p>Follow Us </p>
-            
+
         </div>
-       <hr>
+        <hr>
         <div class="footer2">
-            <div class="contact ">
+            <div class="contact "  class="footerboxes">
                 <h5>Contact </h5>
                 <div class="contactp">
-                    <pre style="font-size: 15px; font-family:Inter, sans-serif ;"><p>328 Queensberry Street, North Melbourne VIC3051,
-Australia</p> </pre>
+                    <p style="font-size: 15px; font-family:Inter, sans-serif ;">328 Queensberry Street, North Melbourne
+                        VIC3051,
+                        Australia</p>
                 </div>
 
                 <p>hi@viatours.com</p>
             </div>
-            <div class="fbox1">
+            <div class="fbox1"  class="footerboxes">
                 <h5>Company</h5>
                 <p>About Us</p>
                 <p>Tourz Reviews</p>
@@ -448,7 +452,7 @@ Australia</p> </pre>
                 <p>Sitemap</p>
 
             </div>
-            <div class="fbox1">
+            <div class="fbox1"  class="footerboxes">
                 <h5>Support</h5>
                 <p> Get in Touch</p>
                 <p> Help center</p>
@@ -456,7 +460,7 @@ Australia</p> </pre>
                 <p> How it works</p>
             </div>
 
-            <div class="fbox4">
+            <div class="fbox4"  class="footerboxes">
                 <h5> Newsletter</h5>
                 <p>Subscribe to the free newsletter and stay
                     up to date</p>
