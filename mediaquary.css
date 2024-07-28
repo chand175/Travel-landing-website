@@ -1,127 +1,435 @@
 
-@media(max-width:1024px){
-    .heroSection{
-        gap:0px;
+
+
+
+
+@media(max-width:1242px) {
+    .heroSection {
+        gap: 0px;
     }
-    .heading{
-        /* width: 650px;
-        padding: 40px; */
-    }
-    .cylindr{
+
+
+
+    .cylindr {
         padding: 30px;
     }
-.popularThings{
-    padding: 20px;
-}
-#heading{
-    padding: 20px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-}
-.container{
-    width: 100%;
-    height: 500px;
+
+    .popularThings {
+        padding: 20px;
+    }
+
+    #heading {
+        padding: 20px;
+
+    }
+
+    .container {
+        width: 100%;
+        height: 500px;
+    }
+
+    .cards {
+        gap: 20px;
+        padding-left: 50px;
+
+    }
+
+    .boxesFirstRow {
+        width: 950px;
+    }
+
+    .boxesSecoundRow {
+        width: 950px;
+    }
+    #box11,
+#box22,
+#box33,
+#box44 {
+    height: 350px;
 }
 
-.cards{
-    gap: 20px;
-    padding-left:  150px;
+    #place {
+        width: 250px;
+        height: 250px;
+    }
+
+    .heading2 {
+        gap: 540px;
+        /* justify-content: center; */
+    }
+
+
+
+    .dataCards img {
+
+        width: 300px;
+
+    }
+
+    .phoneLeft {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .phoneRight {
+        width: 100%;
+        /* border:2px solid #05073C; */
+        padding-right: 50px;
+        object-fit: cover;
+    }
+
+    .phoneRight img {
+        width: 460px;
+        /* padding-right: 100px; */
+
+    }
+
+    .footer1 {
+
+        justify-content: space-between;
+
+        /* gap: 300px; */
+        /* padding: 60px 200px; */
+    }
+
+    .footer2 {
+        gap: 20px;
+    }
+
+    .contact {
+        width: 300px;
+    }
+
+    .contactp {
+        width: 300px;
+    }
 
 }
-.boxesFirstRow,.boxesSecoundRow{
-    width: 800px;
-}
-#place{
-    height: 200px;
-}
-.heading2 {
-    gap: 540px;
+
+@media (max-width:992px) {
+   
+
+    .midSection {
+        display: none;
+    }
+
+    .endSection {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .cards {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        /* padding: 0px 150px; */
+        /* background-color: blue; */
+    }
+    .card1 {
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .heading2 {
+        gap: 350px;
+        /* justify-content: space-around; */
+    }
+
+    .dataCards {
+        
+        height: 300px;
+    }
+
+    .dataCards img {
+        width: 200px;
+    }
+
+    .phoneLeft {
+        width: 100%;
+        height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+
+    .phoneLeft h1 {
+        font-size: 30px;
+    }
+
+    .para12 p {
+        font-size: 15px;
+    }
+
+    .email p {
+        font-size: 15px;
+
+    }
+
+    .email1 {
+        width: 250px;
+    }
+
+    .phoneRight {
+        width: 50%;
+    }
+
+    .footer1 {
+        padding: 40px;
+
+    }
+
+    .footer2 {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        height: 200px;
+    }
+
+    .fbox1 {
+        padding-left: 30px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    /* .fbox4 {
+        justify-content: flex-start;
+        align-items: center;
+    } */
+
+    .para {
+        width: 720px;
+    }
+
+    .boxesFirstRow,
+    .boxesSecoundRow {
+        width: 750px;
+        flex-wrap: wrap;
+    }
+
+    #box11,#box22,#box33,#box44{
+        height: 375px;
+    }
+
+    .endSection {
+        display: none;
+    }
+
+    .heading1 {
+        justify-content: flex-start;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .places {
+        flex-wrap: wrap;
+       
+    }
+
+    .phone {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .footer2 {
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
 }
 
-/* .dataCards {
+
+
+
+@media(max-width:640px) {
+    
+    .cylindr {
+        padding: 30px;
+        display: none;
+    }
+    .heading h1 {
+        color: #05073C;
+        font-size: 10px;
+    }
+
+    .popularImg {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5px;
+
+
+    }
+
+    #box1 {
+        grid-row: span 1;
+    }
+
+.para p {
+    width: 30rem;
+    margin: 1px auto;
+}
+
+.boxesFirstRow, .boxesSecoundRow {
     width: 300px;
-    height: 320px;
-
-} */
-
-.dataCards img {
-    width: 300px;
-
+    flex-wrap: wrap;
 }
-
-.phoneLeft {
-    width: 50%;
-    padding-left: 20px;
-}
-
-.phoneRight {
-    width: 50%;
-    /* border:2px solid #05073C; */
-    padding-right: 50px;
-    object-fit:cover;
+.phoneRight{
+    padding-right:50px ;
 }
 
 .phoneRight img {
-    width: 460px;
-    /* padding-right: 100px; */
+    width: 320px;
+    padding-right:50px ;
+}
+
+.data{
+    flex-wrap: wrap;
+} 
+}
+
+
+@media(max-width : 430px){
+    .navbar{
+        padding: 5px;
+    }
+
+    .heading{
+        width: 310px;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+
+.heroSection{
+    width: 100%;
+    height: 400px;
+    background-image: url("Assets/hero/backgrond\ image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
-.footer1 {
 
-    justify-content: space-between;
-    
-    gap: 300px;
-    /* padding: 60px 200px; */
+#chooseTourz h1 {
+ 
+    font-size: 20px;
+    color: #05073C;
+    padding-left: 20px;
 }
-.footer2{
+
+.chooseTourz {
     gap: 20px;
 }
 
-.contact{
+.card1 {
+    gap: 10px;
+    height: 200px;
+}
+
+.trips{
+    padding: 0;
+}
+#h1{
+    padding: 0;
+    padding: 0 30px ;
+}
+#h1 h1{
+    font-size: 20px;
+}
+.FeaturedTrips{
+    padding: 20px 0;
+}
+.destinations {
+    padding: 0;
+}
+.heading1 {
+    padding: 15px  10px;
+    gap: 30px;
+}
+.heading1 h1{
+    font-size: 20px;
+}
+.heading1 p{
+    font-size: 10px;
+}
+.places{
+    padding-left: 60px;
+}
+.para{
     width: 300px;
 }
-.contactp{
-    width:300px ;
-}
-
-}
-    
-@media (max-width:768px) {
-    .heading2{
-        gap: 280px;
+    .para p {
+        width: 280px;
+        margin: 1px auto;
     }
-.dataCards{
+
+    .reviewImg{
+        flex-wrap: wrap;
+    }
+
+    .heading2{
+        gap: 20px;
+    }
+    .heading2 h1{
+        font-size: 20px;
+    }
+    
+
+    .phoneLeft{
+        padding: 20px 15px;
+        gap: 10px;
+    }
+.phoneLeft input{
+    width: 150px;
+    height: 30px;
+}
+.phoneLeft button{
+    width: 40px;
+height: 30px;
+padding: 0px;
+}
+.phoneRight img {
+    width: 150px;
+    height: 200px;
+    padding: 0;
+}
+.footer1 {
+    padding: 10px;
+    gap: 5px;
+}
+.contact{
+
+  /* padding-left: 30px; */
+}
+#fbox4{
     width: 200px;
-    height: 300px;
 }
-.dataCards img{
-    width: 200px;
+.fbox4 input{
+    width: 80px;
+    height: 30px;
 }
-
-.phoneLeft{
-    width: 50%;
-
+.fbox4 button{
+    width: 40px;
+height: 30px;
+padding: 0px;
 }
-.phoneLeft h1{
-    font-size: 30px;
-}
-.para12 p {
-    font-size: 15px;
-}
-.email p{
-    font-size: 15px;
-
-}
-.email1{
-    width: 250px;
-}
-.phoneRight{
-    width: 50%;
-}
-.footer1{
-    padding:40px;
-   
 }
 
-}
+
+
+
